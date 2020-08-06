@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/home/index.vue'
+import Direct from '../views/direct/index.vue'
+import Explore from '../views/explore/index.vue'
 
 Vue.use(VueRouter)
 
@@ -9,6 +11,17 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home
+  },
+
+  {
+    path: '/direct',
+    name: 'Direct',
+    component: Direct
+  },
+  {
+    path: '/explore',
+    name: 'Explore',
+    component: Explore
   },
   {
     path: '/profile',
