@@ -1,30 +1,13 @@
 <template>
   <div class="home">
     <h1>Home</h1>
-    <CustomText class="a1" tag="p">Merhaba Dunya</CustomText>
-    <CustomText class="a2" tag="p" size="small">Merhaba Dunya</CustomText>
-    <CustomText class="a3" tag="p" size="xsmall">Merhaba Dunya</CustomText>
-    <CustomText class="a4" tag="p" size="xxsmall">Merhaba Dunya</CustomText>
-    <IconHome />
-    <IconLike />
-    <IconComment />
   </div>
 </template>
 
 <script>
-import CustomText from '@/components/CustomText'
-import IconHome from '../icons/home.svg'
-import IconLike from '../icons/post-like.svg'
-import IconComment from '../icons/post-comment.svg'
-
 export default {
   name: 'Home',
-  components: {
-    CustomText,
-    IconHome,
-    IconLike,
-    IconComment
-  }
+  components: {}
 }
 </script>
 
