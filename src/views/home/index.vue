@@ -2,6 +2,7 @@
   <div class="home">
     <div class="timeline">
       <h1>Home</h1>
+      <Avatar size="80"></Avatar>
     </div>
     <div class="sidebar">
       <h1>Side Bar</h1>
@@ -10,9 +11,10 @@
 </template>
 
 <script>
+import Avatar from '@/components/avatar'
 export default {
   name: 'Home',
-  components: {}
+  components: { Avatar }
 }
 </script>
 
