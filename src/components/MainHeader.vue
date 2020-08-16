@@ -40,7 +40,7 @@ import IconHomeFill from '@/icons/home-fill.svg'
 import IconDirectFill from '@/icons/direct-message-fill.svg'
 import IconExploreFill from '@/icons/find-people-fill.svg'
 import Container from '@/components/Container'
-import Avatar from "@/components/avatar";
+import Avatar from '@/components/Avatar'
 export default {
   name: 'MainHeader',
   components: {
